@@ -6,7 +6,18 @@ const jobs = [
   { id: 5, company: "Tesla", position: "JS Dev", location: "USA", type: "Full-time", salary: "$5500", description: "Vanilla JS", status: "all" },
   { id: 6, company: "Apple", position: "iOS Dev", location: "USA", type: "Full-time", salary: "$7000", description: "Swift Dev", status: "all" },
   { id: 7, company: "Spotify", position: "React Dev", location: "Remote", type: "Full-time", salary: "$5200", description: "React Expert", status: "all" },
-  { id: 8, company: "Microsoft", position: "Cloud Dev", location: "USA", type: "Full-time", salary: "$6500", description: "Azure Expert", status: "all" }
+  { id: 8, company: "Microsoft", position: "Cloud Dev", location: "USA", type: "Full-time", salary: "$6500", description: "Azure Expert", status: "all" },
+
+  // New Job Options (previously added)
+  { id: 9, company: "Uber", position: "Mobile App Developer", location: "USA", type: "Full-time", salary: "$6500", description: "Flutter Developer", status: "all" },
+  { id: 10, company: "Slack", position: "Backend Engineer", location: "Remote", type: "Full-time", salary: "$7000", description: "Python Developer", status: "all" },
+  { id: 11, company: "Dropbox", position: "Data Scientist", location: "Remote", type: "Contract", salary: "$8000", description: "Data Analysis Expert", status: "all" },
+  { id: 12, company: "Adobe", position: "Product Manager", location: "USA", type: "Full-time", salary: "$7500", description: "Agile Product Management", status: "all" },
+  { id: 13, company: "Spotify", position: "UX Researcher", location: "Remote", type: "Contract", salary: "$6000", description: "User Experience Research", status: "all" },
+
+  // New Jobs Added (additional two)
+  { id: 14, company: "Twitter", position: "Data Engineer", location: "Remote", type: "Full-time", salary: "$7200", description: "Big Data & Analytics", status: "all" },
+  { id: 15, company: "Spotify", position: "Cloud Architect", location: "Remote", type: "Full-time", salary: "$7500", description: "Cloud Solutions Architect", status: "all" }
 ];
 
 let currentTab = "all";
